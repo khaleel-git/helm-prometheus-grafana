@@ -51,8 +51,8 @@ These are Cluser Ip, they are not open for reqest, they are all closed
 kubectl get deployment
 ```
 ## Get pod ports
-```
 ![Cluster IP Image](Cluster_IP.PNG)
+```
 kubectl logs promethus-grafana-67596ff846 -c grafana
 kubectl port-forward svc/prometheus-grafana 3000:80
 username: admin
