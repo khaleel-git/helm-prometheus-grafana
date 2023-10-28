@@ -2,14 +2,14 @@
 ```
 minikube start
 ```
-#Install Prometheus-operator
-##add repos
+# Install Prometheus-operator
+## add repos
 ```
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 helm repo update
 ```
-#Install chart
+# Install chart
 ```
 helm install prometheus prometheus-community/kube-prometheus-stack
 ```
