@@ -28,11 +28,11 @@ kubectl get all
 
 ### DaemonSet: Node Exporter DaemonSet
 DaemonSet will run on every single worker node
-![DaemonSet Image](DaemonSet.PNG)
+![DaemonSet Image](1.DaemonSet.PNG)
 
 ### Node Exporter DaemonSet
 Translate Worder Node metrics to prometheus metrics like CPU, RAM, Load
-![NodeExporterDaemonSet Image](NodeExporterDaemonSet.PNG)
+![NodeExporterDaemonSet Image](1.NodeExporterDaemonSet.PNG)
 
 # We have setup a monitoring stack
 ```
