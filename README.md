@@ -58,7 +58,7 @@ kubectl port-forward svc/prometheus-grafana 3000:80
 username: admin
 password: prom-operator
 ```
-
+![NodeExporter](GrafanaNodeExporter)
 # Screenshots
 ![ConfigMaps Image](ConfigMaps.PNG)
 ![StatefulSets Image](statefulsets.PNG)
